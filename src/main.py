@@ -6,9 +6,9 @@ import os
 from datetime import datetime
 
 # Import our modules
-from database import get_db, init_database, test_connection
-from models import User, Listing, Deal, Log
-from schemas import (
+from src.database import get_db, init_database, test_connection
+from src.models import User, Listing, Deal, Log
+from src.schemas import (
     UserCreate, UserResponse, 
     ListingCreate, ListingResponse,
     DealCreate, DealResponse,
