@@ -4,7 +4,7 @@ This file allows the FastAPI app to run on Railway's Flask-based infrastructure
 """
 import os
 import uvicorn
-from main import app
+from src.main import app
 
 # Railway expects app.py with Flask-like structure
 # We'll run FastAPI through uvicorn programmatically
